@@ -4,8 +4,10 @@ export const Container = styled.div`
   background-color: #EEEEEE;
   height: max-content;
   border-radius: 3px;
-  padding: 50px 200px 50px 50px;
+  max-height: calc(100% - 100px);
   margin: 10px;
+  padding: 30px;
+  overflow-y: auto;
 `
 
 export const Title = styled.h1`
@@ -17,6 +19,12 @@ export const Content = styled.div`
   display: flex;
   align-items: baseline;
   margin-bottom: 20px;
+
+  @media (max-width: 400px) {
+    & {
+      flex-direction: column;
+    }
+  }
 `
 
 export const ContentTitle = styled.h2`

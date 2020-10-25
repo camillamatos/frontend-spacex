@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -11,6 +11,7 @@ export const Container = styled.div`
   z-index: 9;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
 
   button:first-child {
     position: absolute;

@@ -4,8 +4,11 @@ export const Container = styled.div`
   background-color: #EEEEEE;
   max-width: 1300px;
   height: max-content;
+  max-height: calc(100% - 100px);
   border-radius: 3px;
   padding: 50px;
+  margin: 50px;
+  overflow-y: auto;
 `
 
 export const Title = styled.h1`
