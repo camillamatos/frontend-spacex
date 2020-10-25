@@ -15,6 +15,7 @@ export const Container = styled.div`
   svg {
     color: #E61A72;
     font-size: 30px;
+    cursor: pointer;
   }
 `
 
